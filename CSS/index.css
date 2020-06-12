@@ -1,0 +1,57 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.container{
+    width: 42%;
+    margin:auto;
+    float: none;
+}
+.c_1{
+    background-color: blanchedalmond;
+    margin: 5px 5px 5px 5px;
+    /*border-top: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-right: 5px;*/
+    border: 5px rgb(255, 255, 255) solid;
+}
+.c_1 button{
+    /*position: inherit;
+    top: 50%;
+    bottom: 50%;*/
+    border-radius: 7%;
+    border: 2px rebeccapurple solid;
+    padding: 14px 40px;
+    margin: 10px;
+    width : 45%;
+    background-color:green ;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.c_1 button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.c_1 button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.c_1 button:hover span {
+    padding-right: 25px;
+    color: black;
+}
+  
+.c_1 button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

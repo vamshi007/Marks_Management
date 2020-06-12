@@ -1,0 +1,77 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.container{
+    width: 42%;
+    margin:auto;
+    float: none;
+}
+.c_1 h3{
+    text-align: center;
+}
+.c_1 label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    font-style: italic;
+    border-bottom: 200px;
+    padding: 20px 0px;
+}
+.c_1 input{
+    width: 100%;
+    padding: 2px 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.c_1{
+    background-color: blanchedalmond;
+    margin: 5px 5px 5px 5px;
+    /*border-top: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-right: 5px;*/
+    border: 5px rgb(255, 255, 255) solid;
+}
+.c_2{
+    display: flex;
+    justify-content: center;
+}
+.c_2 button{
+    /*position: inherit;
+    top: 50%;
+    bottom: 50%;*/
+    border-radius: 7%;
+    border: 2px rebeccapurple solid;
+    padding: 6px 10px;
+    margin: 10px;
+    width : 25%;
+    background-color:green ;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.c_2 button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.c_2 button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.c_2 button:hover span {
+    padding-right: 25px;
+    color: black;
+}
+  
+.c_2 button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

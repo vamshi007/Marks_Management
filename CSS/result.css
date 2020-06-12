@@ -1,0 +1,56 @@
+.container{
+    width: 50%;
+    margin:auto;
+    background-color: blanchedalmond;
+}
+table,th,td{
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-spacing: 5px;
+    border-radius: 5px;
+}
+.c_2{
+    display: flex;
+    justify-content: center;
+}
+.c_2 button{
+    /*position: inherit;
+    top: 50%;
+    bottom: 50%;*/
+    border-radius: 7%;
+    border: 2px rebeccapurple solid;
+    padding: 6px 10px;
+    margin: 10px;
+    width : 25%;
+    background-color:green ;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.c_2 button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.c_2 button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.c_2 button:hover span {
+    padding-right: 25px;
+    color: black;
+}
+  
+.c_2 button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
